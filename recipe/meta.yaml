@@ -1,4 +1,4 @@
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: docdata
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/docdata/docdata-{{ version }}.tar.gz
-  sha256: 270ace9349e2a71c2bd38c83fd9437cd4cbd1c4fb765016138976f0898c4f457
+  sha256: ff3b963ab3f8b47476891fa01796828f8b16b10d6605e731690c5e1b5d3e0683
 
 build:
   noarch: python
